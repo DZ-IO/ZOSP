@@ -1,0 +1,1 @@
+@FOR /F "tokens=1 delims=. " %%i IN ('dir %2 /b') DO @set /p =%%i <nul >>%1
