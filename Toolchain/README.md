@@ -20,3 +20,11 @@
 `dir：移动到的文件夹`  
 `sflg：跳过的标签（通常是第一个 ）`  
 `省略sflg将跳过空标签`
+4. ZMake  
+`自动制作工具`  
+`用法：ZMake [clean|install]`  
+`clean：删除文件重新开始`  
+`install：将音源灌入UTAU（需要管理员权限）`   
+`本工具要求你的电脑上已经安装了UTAU，如果UTAU没安装到默认路径，请在工具所在目录下建立Config.ini`   
+`Config.ini 示例：`   
+`UDIR=您的UTAU安装路径，不要带空格`   
